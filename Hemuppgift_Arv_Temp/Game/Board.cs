@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Hemuppgift_Arv_Temp.Game
 {
-    internal class Board
+    public class Board
     {
         private int noPins;
 
