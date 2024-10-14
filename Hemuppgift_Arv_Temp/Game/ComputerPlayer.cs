@@ -13,7 +13,7 @@ namespace Hemuppgift_Arv_Temp.Game
         // Implementation of the method for the computer to randomly take pins
         public override int TakePins(Board board)
         {
-            Console.WriteLine($"{UserId} is thinking...");
+            Console.WriteLine($"\n{UserId} is thinking...");
             Thread.Sleep(2000);
             Random random = new Random();
             int pins = random.Next(1, 3);
