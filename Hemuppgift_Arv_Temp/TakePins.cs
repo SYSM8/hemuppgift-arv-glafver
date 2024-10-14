@@ -14,6 +14,11 @@ namespace Hemuppgift_Arv_Temp
             Player human = new HumanPlayer("Human");
             human.TakePins(board);
             Console.WriteLine($"Remaining pins: {board.GetNoPins()}");
+
+            Player computer = new ComputerPlayer("BMO");
+            Console.WriteLine($"{computer.UserId} is playing");
+            computer.TakePins(board);
+            Console.WriteLine($"Remaining pins: {board.GetNoPins()}");
         }
 
     }
