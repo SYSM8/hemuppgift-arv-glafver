@@ -1,11 +1,17 @@
 ﻿using Hemuppgift_Arv_Temp.Game;
+using System;
 using System.Linq.Expressions;
 
 namespace Hemuppgift_Arv_Temp
 {
     public class TakePinsGame
     {
-        //Här är main klassen där koden ska testas, lägg in i mappen
+        //a) Klassen Player är superklass till klasserna HumanPlayer och ComputerPlayer.
+
+        //b) Player p = new Player("Aegon"); - Korrekt
+            //Player p = new HumanPlayer("Alicent"); - Korrekt
+            //HumanPlayer p = new HumanPlayer("Rhaenyra"); - Korrekt
+            //HumanPlayer p = new ComputerPlayer("Aemond");- Felaktig
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to the Take Pins game!");
